@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Mensaje de Venta - POS Integrado</title>
+        <meta
+            name="description"
+            content=" Este comando es enviado por la caja para solicitar la ejecución de una venta. Los siguientes parámetros deben ser enviados desde la caja: Mensaje en ASCII: &lt;STX&gt;0200|{amount}|{ticket}|||{Convert.ToInt32(sendStatus)}|&lt;ETX&gt;&lt;LRC&gt; Respuesta de Venta &nbsp; &nbsp; DATO&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&hellip;"
+        />
+        <meta name="generator" content="Publii Open-Source CMS for Static Site" />
+        <link rel="canonical" href="./../mensajes/" />
+        <style>
+            :root {
+                --body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                --heading-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                --logo-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                --menu-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            }
+        </style>
+        <link rel="stylesheet" href="./../assets/css/style.css?v=1d9126d5c592483966037cf187b30969" />
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "Article",
+                "mainEntityOfPage": { "@type": "WebPage", "@id": "./../mensajes/" },
+                "headline": "Mensaje de Venta",
+                "datePublished": "2021-01-04T15:04",
+                "dateModified": "2021-01-06T11:42",
+                "description": " Este comando es enviado por la caja para solicitar la ejecución de una venta. Los siguientes parámetros deben ser enviados desde la caja: Mensaje en ASCII: &lt;STX&gt;0200|{amount}|{ticket}|||{Convert.ToInt32(sendStatus)}|&lt;ETX&gt;&lt;LRC&gt; Respuesta de Venta &nbsp; &nbsp; DATO&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&hellip;",
+                "author": { "@type": "Person", "name": "Multicaja S.A" },
+                "publisher": { "@type": "Organization", "name": "Multicaja S.A" }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="site-container">
+           <header class="top" id="js-header">
+			   <a class="logo" href="http://www.multicaja.cl" target="_blank"><img src="../media/files/MC_actual.png" alt="logo"></a>
+				<nav class="navbar js-navbar">
+				    <button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false">
+					    <span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span>
+					</button>
+					<ul class="navbar__menu">
+					    <li><a href="./../index.html" target="_self">Inicio</a></li>
+						<li><a href="./../pos-integrado/index.html" title="Protocolo " target="_self">Protocolo de Comunicación</a></li>
+						<li class="active">
+						    <a href="./../operacion-y-configuracion-del-pos-2/index.html" target="_self">Operación y configuración del POS</a></li>
+					    <li class="has-submenu">
+					        <a href="./../" target="_self" aria-haspopup="true">Mensajes</a>
+						    <ul class="navbar__submenu level-2" aria-hidden="true">
+						        <li><a href="./../mensajes/index.html" target="_self">Mensaje de Venta</a></li>
+							    <li><a href="./../mensaje-2/index.html" target="_self">Mensaje de Última Venta</a></li>
+							    <li><a href="./../mensaje-de-anulacion/index.html" target="_self">Mensaje de Anulación</a></li>
+							    <li><a href="./../mensaje-de-cierre/index.html" target="_self">Mensaje de Cierre</a></li>
+							    <li><a href="./../mensaje-de-totales/index.html" target="_self">Mensaje de Totales</a></li>
+							    <li><a href="./../mensaje-detalle-de-ventas/index.html" target="_self">Mensaje de Detalle de Ventas</a></li>
+							    <li><a href="./../mensaje-de-poll/index.html" target="_self">Mensaje de Poll</a></li>
+								<li><a href="./../mensaje-de-carga-de-llaves/index.html" target="_self">Mensaje de Carga de Llaves</a></li>
+							    <li><a href="./../mensaje-de-cambio-a-pos-normal/index.html" target="_self">Mensaje de Cambio a POS Normal</a></li>
+						    </ul>
+			            </li>
+					    <li><a href="./../tabla-de-respuestas/index.html" target="_self">Tabla de respuestas</a></li>
+				    </ul>
+			    </nav>
+		    </header>
+            <main>
+                <article class="post">
+                    <div class="hero">
+                        <header class="hero__content">
+                            <div class="wrapper"><h1>Mensaje de Venta</h1></div>
+                        </header>
+                    </div>
+                    <div class="wrapper post__entry">
+                        <p>Este comando es enviado por la caja para solicitar la ejecución de una venta. Los siguientes parámetros deben ser enviados desde la caja:</p>
+                        <ul>
+                            <li>
+                                <span style="color: var(--eb-text-primary-color); font-family: var(--font-base); font-size: 1em; font-weight: var(--font-weight-normal);">
+                                    <code>Monto:</code>Monto en pesos informados al POS. Este parámetro es remitido al switch de Multicaja para realizar la autorización.
+                                </span>
+                            </li>
+                            <li><code>Número Ticket/Boleta:</code>Este número es impreso por el POS en el voucher que se genera luego de la venta.</li>
+                            <li><code>Enviar Mensaje</code>: Este parámetro indica al POS si debe enviar mensajes intermedios a la caja mientras se realiza el proceso de venta.</li>
+                        </ul>
+                        <figure class="post__image post__image--center">
+                            <img
+                                loading="lazy"
+                                src="./../media/posts/4/Mensajeria-2.png"
+                                sizes="(max-width: 48em) 100vw, 768px"
+                                srcset="
+                                    ./../media/posts/4/responsive/Mensajeria-2-xs.png   300w,
+                                    ./../media/posts/4/responsive/Mensajeria-2-sm.png   480w,
+                                    ./../media/posts/4/responsive/Mensajeria-2-md.png   768w,
+                                    ./../media/posts/4/responsive/Mensajeria-2-lg.png  1024w,
+                                    ./../media/posts/4/responsive/Mensajeria-2-xl.png  1360w,
+                                    ./../media/posts/4/responsive/Mensajeria-2-2xl.png 1600w
+                                "
+                                height="898"
+                                width="1374"
+                                alt=""
+                            />
+                        </figure>
+                        <ol>
+                            <li>
+                                La caja envía el requerimiento y espera como respuesta <code>&lt;ACK&gt;/&lt;NAK&gt;</code>
+                                <ack>
+                                    <nak>
+                                        , en caso de que llegue un <code>&lt;NAK&gt;</code>
+                                        <nak>, debe reintentar el envío del requerimiento 2 veces. Si recibe un <code>&lt;ACK&gt;</code>&nbsp;<ack>debe esperar la respuesta de la transacción.</ack></nak>
+                                    </nak>
+                                </ack>
+                            </li>
+                            <li>
+                                El POS solicita los datos al usuario, y envía el requerimiento al Autorizador, en caso de ser aprobada, se guarda en Batch y se envía respuesta a la caja. En caso de ser rechazada se envía respuesta a la caja
+                                indicando el error. <a href="./../tabla-de-respuestas/index.html">(Ver Tabla de Respuestas)</a>
+                            </li>
+                            <li>
+                                La caja al recibir la respuesta envía un <code>&lt;ACK&gt;</code>
+                                <ack>
+                                    si el mensaje está correcto, o un <code>&lt;NAK&gt;</code><nak>para el caso en que el <code>LRC</code> no corresponde.</nak>
+                                </ack>
+                            </li>
+                            <li>
+                                El POS al recibir el <code>&lt;ACK&gt;</code>&nbsp;
+                                <ack>vuelve al inicio a esperar un nuevo comando, para el caso que recibe un <code>&lt;NAK&gt;</code>&nbsp;<nak>vuelve a enviar la respuesta 2 veces más.</nak></ack>
+                            </li>
+                        </ol>
+                        <h4 id="solicitud-de-ventabrbr">
+                            Solicitud de Venta<br />
+                            <br />
+                        </h4>
+                        <h6
+                            id="nbsp-datonbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-largonbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbspcomentario"
+                        >
+                            &nbsp; DATO&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; LARGO&nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;COMENTARIO
+                        </h6>
+                        <figure class="post__image post__image--center">
+                            <img
+                                loading="lazy"
+                                src="./../media/posts/4/Tabla-Mensajeria-3.png"
+                                sizes="(max-width: 48em) 100vw, 768px"
+                                srcset="
+                                    ./../media/posts/4/responsive/Tabla-Mensajeria-3-xs.png   300w,
+                                    ./../media/posts/4/responsive/Tabla-Mensajeria-3-sm.png   480w,
+                                    ./../media/posts/4/responsive/Tabla-Mensajeria-3-md.png   768w,
+                                    ./../media/posts/4/responsive/Tabla-Mensajeria-3-lg.png  1024w,
+                                    ./../media/posts/4/responsive/Tabla-Mensajeria-3-xl.png  1360w,
+                                    ./../media/posts/4/responsive/Tabla-Mensajeria-3-2xl.png 1600w
+                                "
+                                height="2957"
+                                width="1064"
+                                alt=""
+                            />
+                        </figure>
+                        <p>
+                            Mensaje en ASCII: <code>&lt;STX&gt;<stx>0200|{amount}|{ticket}|||{Convert.ToInt32(sendStatus)}|&lt;ETX&gt;&lt;LRC&gt;</stx></code><stx></stx><stx></stx>
+                        </p>
+                        <h4 id="respuesta-de-venta">Respuesta de Venta</h4>
+                        <h6
+                            id="nbsp-nbsp-datonbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsplargonbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbspcomentario"
+                        >
+                            &nbsp; &nbsp; DATO&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;LARGO&nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;COMENTARIO
+                        </h6>
+                        <figure class="post__image post__image--center">
+                            <img
+                                loading="lazy"
+                                src="./../media/posts/4/Tabla-mensajeria-resp-3.png"
+                                sizes="(max-width: 48em) 100vw, 768px"
+                                srcset="
+                                    ./../media/posts/4/responsive/Tabla-mensajeria-resp-3-xs.png   300w,
+                                    ./../media/posts/4/responsive/Tabla-mensajeria-resp-3-sm.png   480w,
+                                    ./../media/posts/4/responsive/Tabla-mensajeria-resp-3-md.png   768w,
+                                    ./../media/posts/4/responsive/Tabla-mensajeria-resp-3-lg.png  1024w,
+                                    ./../media/posts/4/responsive/Tabla-mensajeria-resp-3-xl.png  1360w,
+                                    ./../media/posts/4/responsive/Tabla-mensajeria-resp-3-2xl.png 1600w
+                                "
+                                height="2973"
+                                width="1064"
+                                alt=""
+                            />
+                        </figure>
+                    </div>
+                </article>
+                <nav class="post__nav">
+                    <div class="post__nav-inner">
+                        <div class="post__nav-prev">
+                            <svg width="1.041em" height="0.416em" aria-hidden="true"><use xlink:href="./../assets/svg/svg-map.svg#arrow-prev" /></svg>
+                            <a href="./../pos-integrado/index.html" class="invert post__nav-link" rel="prev"><span>Previous</span> Protocolo de Comunicación POS - Caja</a>
+                        </div>
+                        <div class="post__nav-next">
+                            <a href="./../mensaje-2/index.html" class="invert post__nav-link" rel="next"><span>Next</span> Mensaje de Última Venta</a>
+                            <svg width="1.041em" height="0.416em" aria-hidden="true"><use xlink:href="./../assets/svg/svg-map.svg#arrow-next" /></svg>
+                        </div>
+                    </div>
+                </nav>
+            </main>
+            <footer class="footer">
+                <div class="footer__copyright">
+                    <p class="align-center">Documentación de Integración</p>
+                    <p class="align-center">Multicaja S.A</p>
+                </div>
+                <button class="footer__bttop js-footer__bttop" aria-label="Back to top">
+                    <svg>
+                        <title>Back to top</title>
+                        <use xlink:href="./../assets/svg/svg-map.svg#toparrow" />
+                    </svg>
+                </button>
+            </footer>
+        </div>
+        <script>
+            window.publiiThemeMenuConfig = {
+                mobileMenuMode: "sidebar",
+                animationSpeed: 300,
+                submenuWidth: "auto",
+                doubleClickTime: 500,
+                mobileMenuExpandableSubmenus: true,
+                relatedContainerForOverlayMenuSelector: ".top",
+            };
+        </script>
+        <script defer="defer" src="./../assets/js/scripts.min.js?v=f4c4d35432d0e17d212f2fae4e0f8247"></script>
+        <script>
+            var images = document.querySelectorAll("img[loading]");
+
+            for (var i = 0; i < images.length; i++) {
+                if (images[i].complete) {
+                    images[i].classList.add("is-loaded");
+                } else {
+                    images[i].addEventListener(
+                        "load",
+                        function () {
+                            this.classList.add("is-loaded");
+                        },
+                        false
+                    );
+                }
+            }
+        </script>
+    </body>
+</html>

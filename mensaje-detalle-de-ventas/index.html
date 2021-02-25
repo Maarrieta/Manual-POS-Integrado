@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Mensaje Detalle de Ventas - POS Integrado</title>
+        <meta
+            name="description"
+            content=" Esta operación solicita al POS todas las transacciones que se han realizado y permanecen en la memoria del POS. El parámetro que recibe esta función es de tipo booleano e indica si se realiza la impresión del detalle en el POS. En el caso&hellip;"
+        />
+        <meta name="generator" content="Publii Open-Source CMS for Static Site" />
+        <link rel="canonical" href="./../mensaje-detalle-de-ventas/" />
+        <style>
+            :root {
+                --body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                --heading-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                --logo-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                --menu-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            }
+        </style>
+        <link rel="stylesheet" href="./../assets/css/style.css?v=1d9126d5c592483966037cf187b30969" />
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "Article",
+                "mainEntityOfPage": { "@type": "WebPage", "@id": "./../mensaje-detalle-de-ventas/" },
+                "headline": "Mensaje Detalle de Ventas",
+                "datePublished": "2021-01-05T15:31",
+                "dateModified": "2021-01-06T11:39",
+                "description": " Esta operación solicita al POS todas las transacciones que se han realizado y permanecen en la memoria del POS. El parámetro que recibe esta función es de tipo booleano e indica si se realiza la impresión del detalle en el POS. En el caso&hellip;",
+                "author": { "@type": "Person", "name": "Multicaja S.A" },
+                "publisher": { "@type": "Organization", "name": "Multicaja S.A" }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="site-container">
+           <header class="top" id="js-header">
+			   <a class="logo" href="http://www.multicaja.cl" target="_blank"><img src="../media/files/MC_actual.png" alt="logo"></a>
+				<nav class="navbar js-navbar">
+				    <button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false">
+					    <span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span>
+					</button>
+					<ul class="navbar__menu">
+					    <li><a href="./../index.html" target="_self">Inicio</a></li>
+						<li><a href="./../pos-integrado/index.html" title="Protocolo " target="_self">Protocolo de Comunicación</a></li>
+						<li class="active">
+						    <a href="./../operacion-y-configuracion-del-pos-2/index.html" target="_self">Operación y configuración del POS</a></li>
+					    <li class="has-submenu">
+					        <a href="./../" target="_self" aria-haspopup="true">Mensajes</a>
+						    <ul class="navbar__submenu level-2" aria-hidden="true">
+						        <li><a href="./../mensajes/index.html" target="_self">Mensaje de Venta</a></li>
+							    <li><a href="./../mensaje-2/index.html" target="_self">Mensaje de Última Venta</a></li>
+							    <li><a href="./../mensaje-de-anulacion/index.html" target="_self">Mensaje de Anulación</a></li>
+							    <li><a href="./../mensaje-de-cierre/index.html" target="_self">Mensaje de Cierre</a></li>
+							    <li><a href="./../mensaje-de-totales/index.html" target="_self">Mensaje de Totales</a></li>
+							    <li><a href="./../mensaje-detalle-de-ventas/index.html" target="_self">Mensaje de Detalle de Ventas</a></li>
+							    <li><a href="./../mensaje-de-poll/index.html" target="_self">Mensaje de Poll</a></li>
+								<li><a href="./../mensaje-de-carga-de-llaves/index.html" target="_self">Mensaje de Carga de Llaves</a></li>
+							    <li><a href="./../mensaje-de-cambio-a-pos-normal/index.html" target="_self">Mensaje de Cambio a POS Normal</a></li>
+						    </ul>
+			            </li>
+					    <li><a href="./../tabla-de-respuestas/index.html" target="_self">Tabla de respuestas</a></li>
+				    </ul>
+			    </nav>
+		    </header>
+            <main>
+                <article class="post">
+                    <div class="hero">
+                        <header class="hero__content">
+                            <div class="wrapper"><h1>Mensaje Detalle de Ventas</h1></div>
+                        </header>
+                    </div>
+                    <div class="wrapper post__entry">
+                        <p>
+                            Esta operación solicita al POS <strong>todas</strong> las transacciones que se han realizado y permanecen en la memoria del POS. El parámetro que recibe esta función es de tipo booleano e indica si se realiza la
+                            impresión del detalle en el POS. En el caso de que no se solicite la impresión, el POS envía <strong>todas </strong>las transacciones a la caja, una por una.
+                        </p>
+                        <figure class="post__image post__image--center">
+                            <img
+                                loading="lazy"
+                                src="./../media/posts/10/Detalle-de-Ventas.png"
+                                sizes="(max-width: 48em) 100vw, 768px"
+                                srcset="
+                                    ./../media/posts/10/responsive/Detalle-de-Ventas-xs.png   300w,
+                                    ./../media/posts/10/responsive/Detalle-de-Ventas-sm.png   480w,
+                                    ./../media/posts/10/responsive/Detalle-de-Ventas-md.png   768w,
+                                    ./../media/posts/10/responsive/Detalle-de-Ventas-lg.png  1024w,
+                                    ./../media/posts/10/responsive/Detalle-de-Ventas-xl.png  1360w,
+                                    ./../media/posts/10/responsive/Detalle-de-Ventas-2xl.png 1600w
+                                "
+                                height="594"
+                                width="494"
+                                alt=""
+                            />
+                        </figure>
+                        <h4 id="solicitud-de-detalle-de-ventasbr">Solicitud de Detalle de Ventas<br /></h4>
+                        <h6
+                            id="nbsp-datonbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsplargonbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-comentario"
+                        >
+                            &nbsp; DATO&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;LARGO&nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; COMENTARIO
+                        </h6>
+                        <figure class="post__image post__image--center">
+                            <img
+                                loading="lazy"
+                                src="./../media/posts/10/Tabla-Detalle-de-Ventas.png"
+                                sizes="(max-width: 48em) 100vw, 768px"
+                                srcset="
+                                    ./../media/posts/10/responsive/Tabla-Detalle-de-Ventas-xs.png   300w,
+                                    ./../media/posts/10/responsive/Tabla-Detalle-de-Ventas-sm.png   480w,
+                                    ./../media/posts/10/responsive/Tabla-Detalle-de-Ventas-md.png   768w,
+                                    ./../media/posts/10/responsive/Tabla-Detalle-de-Ventas-lg.png  1024w,
+                                    ./../media/posts/10/responsive/Tabla-Detalle-de-Ventas-xl.png  1360w,
+                                    ./../media/posts/10/responsive/Tabla-Detalle-de-Ventas-2xl.png 1600w
+                                "
+                                height="531"
+                                width="1064"
+                                alt=""
+                            />
+                        </figure>
+                        <p>
+                            Mensaje en ASCII:<code>&lt;STX&gt;<stx>0260|1|&lt;ETX&gt;&lt;LRC&gt;</stx></code>
+                            <stx>
+                                <etx>
+                                    <lrc>
+                                        <br />
+                                        <br />
+                                        Mensaje en Hexadecimal: <code>{0x02, 0x30, 0x32, 0x36, 0x30, 0x7c, 0x7c, 0x03, 0x07}</code>
+                                    </lrc>
+                                </etx>
+                            </stx>
+                        </p>
+                        <h4 id="respuesta-de-detalle-de-ventas">Respuesta de Detalle de Ventas</h4>
+                        <h6
+                            id="nbsp-datonbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-largonbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-comentario"
+                        >
+                            &nbsp; DATO&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; LARGO&nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; COMENTARIO
+                        </h6>
+                        <figure class="post__image post__image--center">
+                            <img
+                                loading="lazy"
+                                src="./../media/posts/10/Tabla-Detalle-de-Ventas-resp.png"
+                                sizes="(max-width: 48em) 100vw, 768px"
+                                srcset="
+                                    ./../media/posts/10/responsive/Tabla-Detalle-de-Ventas-resp-xs.png   300w,
+                                    ./../media/posts/10/responsive/Tabla-Detalle-de-Ventas-resp-sm.png   480w,
+                                    ./../media/posts/10/responsive/Tabla-Detalle-de-Ventas-resp-md.png   768w,
+                                    ./../media/posts/10/responsive/Tabla-Detalle-de-Ventas-resp-lg.png  1024w,
+                                    ./../media/posts/10/responsive/Tabla-Detalle-de-Ventas-resp-xl.png  1360w,
+                                    ./../media/posts/10/responsive/Tabla-Detalle-de-Ventas-resp-2xl.png 1600w
+                                "
+                                height="2957"
+                                width="1063"
+                                alt=""
+                            />
+                        </figure>
+                    </div>
+                </article>
+                <nav class="post__nav">
+                    <div class="post__nav-inner">
+                        <div class="post__nav-prev">
+                            <svg width="1.041em" height="0.416em" aria-hidden="true"><use xlink:href="./../assets/svg/svg-map.svg#arrow-prev" /></svg>
+                            <a href="./../mensaje-de-totales/index.html" class="invert post__nav-link" rel="prev"><span>Previous</span> Mensaje de Totales</a>
+                        </div>
+                        <div class="post__nav-next">
+                            <a href="./../mensaje-de-poll/index.html" class="invert post__nav-link" rel="next"><span>Next</span> Mensaje de Poll </a>
+                            <svg width="1.041em" height="0.416em" aria-hidden="true"><use xlink:href="./../assets/svg/svg-map.svg#arrow-next" /></svg>
+                        </div>
+                    </div>
+                </nav>
+            </main>
+            <footer class="footer">
+                <div class="footer__copyright">
+                    <p class="align-center">Documentación de Integración</p>
+                    <p class="align-center">Multicaja S.A</p>
+                </div>
+                <button class="footer__bttop js-footer__bttop" aria-label="Back to top">
+                    <svg>
+                        <title>Back to top</title>
+                        <use xlink:href="./../assets/svg/svg-map.svg#toparrow" />
+                    </svg>
+                </button>
+            </footer>
+        </div>
+        <script>
+            window.publiiThemeMenuConfig = {
+                mobileMenuMode: "sidebar",
+                animationSpeed: 300,
+                submenuWidth: "auto",
+                doubleClickTime: 500,
+                mobileMenuExpandableSubmenus: true,
+                relatedContainerForOverlayMenuSelector: ".top",
+            };
+        </script>
+        <script defer="defer" src="./../assets/js/scripts.min.js?v=f4c4d35432d0e17d212f2fae4e0f8247"></script>
+        <script>
+            var images = document.querySelectorAll("img[loading]");
+
+            for (var i = 0; i < images.length; i++) {
+                if (images[i].complete) {
+                    images[i].classList.add("is-loaded");
+                } else {
+                    images[i].addEventListener(
+                        "load",
+                        function () {
+                            this.classList.add("is-loaded");
+                        },
+                        false
+                    );
+                }
+            }
+        </script>
+    </body>
+</html>

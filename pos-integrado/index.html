@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Protocolo de Comunicación POS - Caja - POS Integrado</title>
+        <meta
+            name="description"
+            content=" Cuando veas cosas como texto entre símbolos &lt; &gt; nos estamos refiriendo a caracteres ASCII que no son imprimibles o visible como texto, y cuando veas cosas con la forma 0x00 nos referimos a la representación hexadecimal de los caracteres ASCII. La comunicación se&hellip;"
+        />
+        <meta name="generator" content="Publii Open-Source CMS for Static Site" />
+        <link rel="canonical" href="./../pos-integrado/" />
+        <style>
+            :root {
+                --body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                --heading-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                --logo-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                --menu-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            }
+        </style>
+        <link rel="stylesheet" href="./../assets/css/style.css?v=1d9126d5c592483966037cf187b30969" />
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "Article",
+                "mainEntityOfPage": { "@type": "WebPage", "@id": "./../pos-integrado/" },
+                "headline": "Protocolo de Comunicación POS - Caja",
+                "datePublished": "2021-01-04T10:56",
+                "dateModified": "2021-01-06T13:27",
+                "description": " Cuando veas cosas como texto entre símbolos &lt; &gt; nos estamos refiriendo a caracteres ASCII que no son imprimibles o visible como texto, y cuando veas cosas con la forma 0x00 nos referimos a la representación hexadecimal de los caracteres ASCII. La comunicación se&hellip;",
+                "author": { "@type": "Person", "name": "Multicaja S.A" },
+                "publisher": { "@type": "Organization", "name": "Multicaja S.A" }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="site-container">
+           <header class="top" id="js-header">
+			   <a class="logo" href="http://www.multicaja.cl" target="_blank"><img src="../media/files/MC_actual.png" alt="logo"></a>
+				<nav class="navbar js-navbar">
+				    <button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false">
+					    <span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span>
+					</button>
+					<ul class="navbar__menu">
+					    <li><a href="./../index.html" target="_self">Inicio</a></li>
+						<li><a href="./../pos-integrado/index.html" title="Protocolo " target="_self">Protocolo de Comunicación</a></li>
+						<li class="active">
+						    <a href="./../operacion-y-configuracion-del-pos-2/index.html" target="_self">Operación y configuración del POS</a></li>
+					    <li class="has-submenu">
+					        <a href="./../" target="_self" aria-haspopup="true">Mensajes</a>
+						    <ul class="navbar__submenu level-2" aria-hidden="true">
+						        <li><a href="./../mensajes/index.html" target="_self">Mensaje de Venta</a></li>
+							    <li><a href="./../mensaje-2/index.html" target="_self">Mensaje de Última Venta</a></li>
+							    <li><a href="./../mensaje-de-anulacion/index.html" target="_self">Mensaje de Anulación</a></li>
+							    <li><a href="./../mensaje-de-cierre/index.html" target="_self">Mensaje de Cierre</a></li>
+							    <li><a href="./../mensaje-de-totales/index.html" target="_self">Mensaje de Totales</a></li>
+							    <li><a href="./../mensaje-detalle-de-ventas/index.html" target="_self">Mensaje de Detalle de Ventas</a></li>
+							    <li><a href="./../mensaje-de-poll/index.html" target="_self">Mensaje de Poll</a></li>
+								<li><a href="./../mensaje-de-carga-de-llaves/index.html" target="_self">Mensaje de Carga de Llaves</a></li>
+							    <li><a href="./../mensaje-de-cambio-a-pos-normal/index.html" target="_self">Mensaje de Cambio a POS Normal</a></li>
+						    </ul>
+			            </li>
+					    <li><a href="./../tabla-de-respuestas/index.html" target="_self">Tabla de respuestas</a></li>
+				    </ul>
+			    </nav>
+		    </header>
+            <main>
+                <article class="post">
+                    <div class="hero">
+                        <header class="hero__content">
+                            <div class="wrapper"><h1>Protocolo de Comunicación POS - Caja</h1></div>
+                        </header>
+                    </div>
+                    <div class="wrapper post__entry">
+                        <p class="msg msg--info">
+                            Cuando veas cosas como texto entre símbolos &lt; &gt; nos estamos refiriendo a caracteres ASCII que no son imprimibles o visible como texto, y cuando veas cosas con la forma 0x00 nos referimos a la representación
+                            hexadecimal de los caracteres ASCII.
+                        </p>
+                        <p>
+                            La comunicación se realiza a través de un puerto serial <code>RS232</code>, a velocidades que van entre los 1200bps hasta 115200bps <code>8N1</code> es decir <code>8</code>bits de datos, Ningún bit de paridad y
+                            <code>1</code> bit de parada.
+                        </p>
+                        <figure class="post__image post__image--center">
+                            <img
+                                loading="lazy"
+                                src="./../media/posts/1/Prot.-de-com..png"
+                                sizes="(max-width: 48em) 100vw, 768px"
+                                srcset="
+                                    ./../media/posts/1/responsive/Prot.-de-com.-xs.png   300w,
+                                    ./../media/posts/1/responsive/Prot.-de-com.-sm.png   480w,
+                                    ./../media/posts/1/responsive/Prot.-de-com.-md.png   768w,
+                                    ./../media/posts/1/responsive/Prot.-de-com.-lg.png  1024w,
+                                    ./../media/posts/1/responsive/Prot.-de-com.-xl.png  1360w,
+                                    ./../media/posts/1/responsive/Prot.-de-com.-2xl.png 1600w
+                                "
+                                height="434"
+                                width="1264"
+                                alt=""
+                            />
+                        </figure>
+                        <h6 id="nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbspterminonbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-descripcin">
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;TERMINO&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; DESCRIPCIÓN
+                        </h6>
+                        <figure class="post__image post__image--center">
+                            <img
+                                loading="lazy"
+                                src="./../media/posts/1/Tabla-Prot.-de-com.png"
+                                sizes="(max-width: 48em) 100vw, 768px"
+                                srcset="
+                                    ./../media/posts/1/responsive/Tabla-Prot.-de-com-xs.png   300w,
+                                    ./../media/posts/1/responsive/Tabla-Prot.-de-com-sm.png   480w,
+                                    ./../media/posts/1/responsive/Tabla-Prot.-de-com-md.png   768w,
+                                    ./../media/posts/1/responsive/Tabla-Prot.-de-com-lg.png  1024w,
+                                    ./../media/posts/1/responsive/Tabla-Prot.-de-com-xl.png  1360w,
+                                    ./../media/posts/1/responsive/Tabla-Prot.-de-com-2xl.png 1600w
+                                "
+                                height="1047"
+                                width="587"
+                                alt=""
+                            />
+                        </figure>
+                        <p class="msg msg--info">Todos los comandos que se envían al POS deben cumplir con el flujo antes mencionado.<br /></p>
+                        <p class="msg msg--info">&nbsp;Todos los mensajes intercambiados entre la caja y el POS Integrado cumplen con el formato: &lt;STX&gt;DATOS&lt;ETX&gt;LRC</p>
+                        <h5 id="ejemplo-de-calculo-lrcbr">Ejemplo de calculo LRC<br /></h5>
+                        <p>
+                            Dado el siguiente comando:
+                            <stx>
+                                <code>&lt;STX&gt;0200|123|&lt;ETX&gt;<etx>&nbsp;</etx></code>
+                                <etx>
+                                    <br />
+                                    <br />
+                                    Que en notación hexadecimal seria: <code>0x02 0x30 0x32 0x30 0x30 0x7C 0x31 0x32 0x33 0x7C 0x03<br /></code><br />
+                                    Para calcular el <code>LRC</code> debemos omitir el inicio de texto
+                                    <stx>
+                                        o <code>0x02</code>.<br />
+                                        <br />
+                                        La operación entonces seria:&nbsp;
+                                    </stx>
+                                </etx>
+                            </stx>
+                        </p>
+                        <p>
+                            <code>(((((((((0x30 XOR 0x32) XOR 0x30) XOR 0x30) XOR 0x7C) XOR 0x31) XOR 0x32) XOR 0x33) XOR 0x7C) XOR 0x03)</code><br />
+                            <br />
+                            El resultado entonces seria <code>0x31</code> en hexadecimal o 1 en ASCII, por lo tanto, el mensaje completo para enviar al POS Integrado es:
+                        </p>
+                        <pre class="line-numbers language-java"><code>&lt;STX&gt;                   DATOS                           &lt;ETX&gt;   LRC
+ 0x02    0x30 0x32 0x30 0x30 0x7C 0x31 0x32 0x33 0x7C    0x03    0x31        </code></pre>
+                        <p></p>
+                    </div>
+                </article>
+            </main>
+            <footer class="footer">
+                <div class="footer__copyright">
+                    <p class="align-center">Documentación de Integración</p>
+                    <p class="align-center">Multicaja S.A</p>
+                </div>
+                <button class="footer__bttop js-footer__bttop" aria-label="Back to top">
+                    <svg>
+                        <title>Back to top</title>
+                        <use xlink:href="./../assets/svg/svg-map.svg#toparrow" />
+                    </svg>
+                </button>
+            </footer>
+        </div>
+        <script>
+            window.publiiThemeMenuConfig = {
+                mobileMenuMode: "sidebar",
+                animationSpeed: 300,
+                submenuWidth: "auto",
+                doubleClickTime: 500,
+                mobileMenuExpandableSubmenus: true,
+                relatedContainerForOverlayMenuSelector: ".top",
+            };
+        </script>
+        <script defer="defer" src="./../assets/js/scripts.min.js?v=f4c4d35432d0e17d212f2fae4e0f8247"></script>
+        <script>
+            var images = document.querySelectorAll("img[loading]");
+
+            for (var i = 0; i < images.length; i++) {
+                if (images[i].complete) {
+                    images[i].classList.add("is-loaded");
+                } else {
+                    images[i].addEventListener(
+                        "load",
+                        function () {
+                            this.classList.add("is-loaded");
+                        },
+                        false
+                    );
+                }
+            }
+        </script>
+    </body>
+</html>

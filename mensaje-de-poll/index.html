@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Mensaje de Poll - POS Integrado</title>
+        <meta
+            name="description"
+            content=" Esta mensaje es enviado por la caja para saber si el POS está conectado. Mensaje en ASCII: &lt;STX&gt;0100&lt;ETX&gt;&lt;STX&gt; Mensaje en Hexadecimal: {0x02, 0x30, 0x31, 0x30, 0x30, 0x03, 0x02} "
+        />
+        <meta name="generator" content="Publii Open-Source CMS for Static Site" />
+        <link rel="canonical" href="./../mensaje-de-poll/" />
+        <style>
+            :root {
+                --body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                --heading-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                --logo-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                --menu-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            }
+        </style>
+        <link rel="stylesheet" href="./../assets/css/style.css?v=1d9126d5c592483966037cf187b30969" />
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "Article",
+                "mainEntityOfPage": { "@type": "WebPage", "@id": "./../mensaje-de-poll/" },
+                "headline": "Mensaje de Poll",
+                "datePublished": "2021-01-05T17:07",
+                "dateModified": "2021-01-06T11:37",
+                "description": " Esta mensaje es enviado por la caja para saber si el POS está conectado. Mensaje en ASCII: &lt;STX&gt;0100&lt;ETX&gt;&lt;STX&gt; Mensaje en Hexadecimal: {0x02, 0x30, 0x31, 0x30, 0x30, 0x03, 0x02} ",
+                "author": { "@type": "Person", "name": "Multicaja S.A" },
+                "publisher": { "@type": "Organization", "name": "Multicaja S.A" }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="site-container">
+            <header class="top" id="js-header">
+			   <a class="logo" href="http://www.multicaja.cl" target="_blank"><img src="../media/files/MC_actual.png" alt="logo"></a>
+				<nav class="navbar js-navbar">
+				    <button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false">
+					    <span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span>
+					</button>
+					<ul class="navbar__menu">
+					    <li><a href="./../index.html" target="_self">Inicio</a></li>
+						<li><a href="./../pos-integrado/index.html" title="Protocolo " target="_self">Protocolo de Comunicación</a></li>
+						<li class="active">
+						    <a href="./../operacion-y-configuracion-del-pos-2/index.html" target="_self">Operación y configuración del POS</a></li>
+					    <li class="has-submenu">
+					        <a href="./../" target="_self" aria-haspopup="true">Mensajes</a>
+						    <ul class="navbar__submenu level-2" aria-hidden="true">
+						        <li><a href="./../mensajes/index.html" target="_self">Mensaje de Venta</a></li>
+							    <li><a href="./../mensaje-2/index.html" target="_self">Mensaje de Última Venta</a></li>
+							    <li><a href="./../mensaje-de-anulacion/index.html" target="_self">Mensaje de Anulación</a></li>
+							    <li><a href="./../mensaje-de-cierre/index.html" target="_self">Mensaje de Cierre</a></li>
+							    <li><a href="./../mensaje-de-totales/index.html" target="_self">Mensaje de Totales</a></li>
+							    <li><a href="./../mensaje-detalle-de-ventas/index.html" target="_self">Mensaje de Detalle de Ventas</a></li>
+							    <li><a href="./../mensaje-de-poll/index.html" target="_self">Mensaje de Poll</a></li>
+								<li><a href="./../mensaje-de-carga-de-llaves/index.html" target="_self">Mensaje de Carga de Llaves</a></li>
+							    <li><a href="./../mensaje-de-cambio-a-pos-normal/index.html" target="_self">Mensaje de Cambio a POS Normal</a></li>
+						    </ul>
+			            </li>
+					    <li><a href="./../tabla-de-respuestas/index.html" target="_self">Tabla de respuestas</a></li>
+				    </ul>
+			    </nav>
+		    </header>
+            <main>
+                <article class="post">
+                    <div class="hero">
+                        <header class="hero__content">
+                            <div class="wrapper"><h1>Mensaje de Poll</h1></div>
+                        </header>
+                    </div>
+                    <div class="wrapper post__entry">
+                        <p>Esta mensaje es enviado por la caja para saber si el POS está conectado.</p>
+                        <figure class="post__image post__image--center">
+                            <img
+                                loading="lazy"
+                                src="./../media/posts/11/Polling.png"
+                                sizes="(max-width: 48em) 100vw, 768px"
+                                srcset="
+                                    ./../media/posts/11/responsive/Polling-xs.png   300w,
+                                    ./../media/posts/11/responsive/Polling-sm.png   480w,
+                                    ./../media/posts/11/responsive/Polling-md.png   768w,
+                                    ./../media/posts/11/responsive/Polling-lg.png  1024w,
+                                    ./../media/posts/11/responsive/Polling-xl.png  1360w,
+                                    ./../media/posts/11/responsive/Polling-2xl.png 1600w
+                                "
+                                height="275"
+                                width="495"
+                                alt=""
+                            />
+                        </figure>
+                        <ol>
+                            <li>
+                                La caja envía el requerimiento y espera como respuesta <code>&lt;ACK&gt;</code>
+                                <ack>
+                                    , en caso de recibir <code>&lt;ACK&gt;</code>
+                                    <ack>
+                                        , esto indica que el POS se encuentra operativo y listo para recibir comandos. si no se recibe respuesta o es <code>&lt;NAK&gt;</code>&nbsp;<nak>se debe reintentar el envío del comando 2 veces.</nak>
+                                    </ack>
+                                </ack>
+                            </li>
+                        </ol>
+                        <h4 id="solicitud-poll">Solicitud Poll</h4>
+                        <h6
+                            id="nbsp-datonbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsplargonbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-comentario"
+                        >
+                            &nbsp; DATO&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;LARGO&nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; COMENTARIO
+                        </h6>
+                        <figure class="post__image post__image--center">
+                            <img
+                                loading="lazy"
+                                src="./../media/posts/11/Tabla-Polling.png"
+                                sizes="(max-width: 48em) 100vw, 768px"
+                                srcset="
+                                    ./../media/posts/11/responsive/Tabla-Polling-xs.png   300w,
+                                    ./../media/posts/11/responsive/Tabla-Polling-sm.png   480w,
+                                    ./../media/posts/11/responsive/Tabla-Polling-md.png   768w,
+                                    ./../media/posts/11/responsive/Tabla-Polling-lg.png  1024w,
+                                    ./../media/posts/11/responsive/Tabla-Polling-xl.png  1360w,
+                                    ./../media/posts/11/responsive/Tabla-Polling-2xl.png 1600w
+                                "
+                                height="302"
+                                width="1064"
+                                alt=""
+                            />
+                        </figure>
+                        <p>
+                            Mensaje en ASCII:
+                            <code>
+                                &lt;STX&gt;
+                                <stx>
+                                    0100&lt;ETX&gt;&lt;STX&gt;<etx><stx></stx></etx>
+                                </stx>
+                            </code>
+                            <stx>
+                                <etx>
+                                    <stx>
+                                        <br />
+                                        <br />
+                                        Mensaje en Hexadecimal: <code>{0x02, 0x30, 0x31, 0x30, 0x30, 0x03, 0x02}</code>
+                                    </stx>
+                                </etx>
+                            </stx>
+                        </p>
+                        <h4 id="respuesta-poll">Respuesta Poll</h4>
+                        <h6
+                            id="nbsp-nbspdatonbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsplargonbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-comentario"
+                        >
+                            &nbsp; &nbsp;DATO&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;LARGO&nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; COMENTARIO
+                        </h6>
+                        <figure class="post__image post__image--center">
+                            <img
+                                loading="lazy"
+                                src="./../media/posts/11/Tabla-Polling-resp.png"
+                                sizes="(max-width: 48em) 100vw, 768px"
+                                srcset="
+                                    ./../media/posts/11/responsive/Tabla-Polling-resp-xs.png   300w,
+                                    ./../media/posts/11/responsive/Tabla-Polling-resp-sm.png   480w,
+                                    ./../media/posts/11/responsive/Tabla-Polling-resp-md.png   768w,
+                                    ./../media/posts/11/responsive/Tabla-Polling-resp-lg.png  1024w,
+                                    ./../media/posts/11/responsive/Tabla-Polling-resp-xl.png  1360w,
+                                    ./../media/posts/11/responsive/Tabla-Polling-resp-2xl.png 1600w
+                                "
+                                height="102"
+                                width="1064"
+                                alt=""
+                            />
+                        </figure>
+                        <p></p>
+                    </div>
+                </article>
+                <nav class="post__nav">
+                    <div class="post__nav-inner">
+                        <div class="post__nav-prev">
+                            <svg width="1.041em" height="0.416em" aria-hidden="true"><use xlink:href="./../assets/svg/svg-map.svg#arrow-prev" /></svg>
+                            <a href="./../mensaje-detalle-de-ventas/index.html" class="invert post__nav-link" rel="prev"><span>Previous</span> Mensaje Detalle de Ventas</a>
+                        </div>
+                        <div class="post__nav-next">
+                            <a href="./../mensaje-de-carga-de-llaves/index.html" class="invert post__nav-link" rel="next"><span>Next</span> Mensaje de Carga de Llaves </a>
+                            <svg width="1.041em" height="0.416em" aria-hidden="true"><use xlink:href="./../assets/svg/svg-map.svg#arrow-next" /></svg>
+                        </div>
+                    </div>
+                </nav>
+            </main>
+            <footer class="footer">
+                <div class="footer__copyright">
+                    <p class="align-center">Documentación de Integración</p>
+                    <p class="align-center">Multicaja S.A</p>
+                </div>
+                <button class="footer__bttop js-footer__bttop" aria-label="Back to top">
+                    <svg>
+                        <title>Back to top</title>
+                        <use xlink:href="./../assets/svg/svg-map.svg#toparrow" />
+                    </svg>
+                </button>
+            </footer>
+        </div>
+        <script>
+            window.publiiThemeMenuConfig = {
+                mobileMenuMode: "sidebar",
+                animationSpeed: 300,
+                submenuWidth: "auto",
+                doubleClickTime: 500,
+                mobileMenuExpandableSubmenus: true,
+                relatedContainerForOverlayMenuSelector: ".top",
+            };
+        </script>
+        <script defer="defer" src="./../assets/js/scripts.min.js?v=f4c4d35432d0e17d212f2fae4e0f8247"></script>
+        <script>
+            var images = document.querySelectorAll("img[loading]");
+
+            for (var i = 0; i < images.length; i++) {
+                if (images[i].complete) {
+                    images[i].classList.add("is-loaded");
+                } else {
+                    images[i].addEventListener(
+                        "load",
+                        function () {
+                            this.classList.add("is-loaded");
+                        },
+                        false
+                    );
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Mensaje de Carga de Llaves - POS Integrado</title>
+        <meta 
+		    name="description" 
+		    content=" Esta transacción permite al POS Integrado del comercio requerir la carga de parámetros desde Multicaja. Como respuesta el POS Integrado enviará un aprobado o rechazado. (Puedes ver la tabla de respuestas en este link) &nbsp;El mensaje de Carga de Llaves se debe ejecutar cada&hellip;"
+		>
+		<meta name="generator" content="Publii Open-Source CMS for Static Site">
+		<link rel="canonical" href="./../mensaje-de-carga-de-llaves/">
+		<style>
+		    :root{
+			    --body-font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+			    --heading-font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+			    --logo-font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+			    --menu-font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
+			}
+		</style>
+		<link rel="stylesheet" href="./../assets/css/style.css?v=1d9126d5c592483966037cf187b30969">
+		<script type="application/ld+json">
+		    {
+			    "@context":"http://schema.org",
+			    "@type":"Article",
+			    "mainEntityOfPage":{"@type":"WebPage","@id":"./../mensaje-de-carga-de-llaves/"},
+			    "headline":"Mensaje de Carga de Llaves",
+			    "datePublished":"2021-02-25T12:54",
+			    "dateModified":"2021-02-25T13:05",
+			    "image":{"@type":"ImageObject","url":"./../media/website/icono-3.png","height":450,"width":450},
+			    "description":" Esta transacción permite al POS Integrado del comercio requerir la carga de parámetros desde Multicaja. Como respuesta el POS Integrado enviará un aprobado o rechazado. (Puedes ver la tabla de respuestas en este link) &nbsp;El mensaje de Carga de Llaves se debe ejecutar cada&hellip;",
+			    "author":{"@type":"Person","name":"Multicaja S.A"},
+			    "publisher":{"@type":"Organization","name":"Multicaja S.A","logo":{"@type":"ImageObject","url":"./../media/website/icono-3.png","height":450,"width":450}}
+			}
+		</script>
+	</head>
+    <body>
+	    <div class="site-container">
+		    <header class="top" id="js-header">
+			   <a class="logo" href="http://www.multicaja.cl" target="_blank"><img src="../media/files/MC_actual.png" alt="logo"></a>
+				<nav class="navbar js-navbar">
+				    <button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false">
+					    <span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span>
+					</button>
+					<ul class="navbar__menu">
+					    <li><a href="./../index.html" target="_self">Inicio</a></li>
+						<li><a href="./../pos-integrado/index.html" title="Protocolo " target="_self">Protocolo de Comunicación</a></li>
+						<li class="active">
+						    <a href="./../operacion-y-configuracion-del-pos-2/index.html" target="_self">Operación y configuración del POS</a></li>
+					    <li class="has-submenu">
+					        <a href="./../" target="_self" aria-haspopup="true">Mensajes</a>
+						    <ul class="navbar__submenu level-2" aria-hidden="true">
+						        <li><a href="./../mensajes/index.html" target="_self">Mensaje de Venta</a></li>
+							    <li><a href="./../mensaje-2/index.html" target="_self">Mensaje de Última Venta</a></li>
+							    <li><a href="./../mensaje-de-anulacion/index.html" target="_self">Mensaje de Anulación</a></li>
+							    <li><a href="./../mensaje-de-cierre/index.html" target="_self">Mensaje de Cierre</a></li>
+							    <li><a href="./../mensaje-de-totales/index.html" target="_self">Mensaje de Totales</a></li>
+							    <li><a href="./../mensaje-detalle-de-ventas/index.html" target="_self">Mensaje de Detalle de Ventas</a></li>
+							    <li><a href="./../mensaje-de-poll/index.html" target="_self">Mensaje de Poll</a></li>
+								<li><a href="./../mensaje-de-carga-de-llaves/index.html" target="_self">Mensaje de Carga de Llaves</a></li>
+							    <li><a href="./../mensaje-de-cambio-a-pos-normal/index.html" target="_self">Mensaje de Cambio a POS Normal</a></li>
+						    </ul>
+			            </li>
+					    <li><a href="./../tabla-de-respuestas/index.html" target="_self">Tabla de respuestas</a></li>
+				    </ul>
+			    </nav>
+		    </header>
+			<main>
+                <article class="post">
+				    <div class="hero">
+					    <header class="hero__content">
+					        <div class="wrapper"><h1>Mensaje de Carga de Llaves</h1></div>
+					    </header>
+				    </div>
+				    <div class="wrapper post__entry">
+				        <p>Esta transacción permite al POS Integrado del comercio requerir la carga de parámetros desde Multicaja. Como respuesta el POS Integrado enviará un aprobado o rechazado. (Puedes ver la tabla de respuestas en este <a href="./../tabla-de-respuestas/index.html">link</a>)</p>
+					    <p class="msg msg--info">&nbsp;El mensaje de Carga de Llaves se debe ejecutar cada vez que el POS se integre a la Caja o cada vez que el POS se reinicie.&nbsp;&nbsp;</p>
+					    <figure class="post__image post__image--center">
+					        <img 
+						        loading="lazy" 
+							    src="./../media/posts/16/Carga-llaves.png" 
+							    sizes="(max-width: 48em) 100vw, 768px" 
+							    srcset="
+							        ./../media/posts/16/responsive/Carga-llaves-xs.png 300w, 
+								    ./../media/posts/16/responsive/Carga-llaves-sm.png 480w, 
+								    ./../media/posts/16/responsive/Carga-llaves-md.png 768w, 
+								    ./../media/posts/16/responsive/Carga-llaves-lg.png 1024w, 
+								    ./../media/posts/16/responsive/Carga-llaves-xl.png 1360w,
+								    ./../media/posts/16/responsive/Carga-llaves-2xl.png 1600w
+						        " 
+							    height="594" 
+							    width="908" 
+							    alt=""
+						    >
+					    </figure>
+					    <ol>
+					        <li><span style="color: var(--eb-text-primary-color); font-family: var(--font-base); font-size: 1em; font-weight: var(--font-weight-normal);">
+						        La caja envía el requerimiento y espera como respuesta <code>&lt;NAK&gt;/&lt;NAK&gt;</code></span><ack style="color: var(--eb-text-primary-color); font-family: var(--font-base); font-size: 1em; font-weight: var(--font-weight-normal); background-color:;">
+							    <nak>, en caso de que la respuesta sea negativa, se debe reintentar el envío del requerimiento 2 veces. Si recibe un <code>&lt;NAK&gt;</code>
+							    <ack>
+								    <nak></nak>&nbsp;se debe esperar la respuesta de la transacción.</ack></nak></ack></li>
+						    <li>El POS envía el requerimiento al Autorizador, en caso de ser aprobado, se guardan los parámetros y se envía la respuesta a la caja. En caso de ser rechazada se indica el error a la Caja.</li>
+						    <li>Al recibir la respuesta por parte del POS, se debe enviar un <code>&lt;ACK&gt;</code> si el <code>LRC</code> del mensaje es correcto, en caso contrario se debe enviar un <code>&lt;NAK&gt;</code>.</li>
+						    <li>Si el POS recibe un <code>&lt;ACK&gt;</code> vuelve al inicio y espera un nuevo comando, si recibe un <code>&lt;NAK&gt;</code>&nbsp; reintentara el envío de la respuesta 2 veces
+						    </li>
+					    </ol>
+					    <p class="msg msg--warning">El uso de esta transacción debe ser limitado a pruebas de comunicación, cuando el POS se vuelva a conectar a la Caja o se reinicie.</p>
+					    <h4 id="solicitud-de-carga-de-llaves">
+					        Solicitud de Carga de Llaves
+					    </h4>
+					    <h6 
+					        id="nbsp-nbsp-datonbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsplargonbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbspcomentario"
+				        >
+					        &nbsp; &nbsp; DATO&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;LARGO&nbsp; &nbsp; &nbsp; &nbsp; 
+					        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;COMENTARIO
+					    </h6>
+					    <figure class="post__image post__image--center">
+					        <img 
+						        loading="lazy" 
+							    src="./../media/posts/16/Tabla-Carga-de-llaves.png" 
+							    sizes="(max-width: 48em) 100vw, 768px" 
+							    srcset="
+							        ./../media/posts/16/responsive/Tabla-Carga-de-llaves-xs.png 300w, 
+								    ./../media/posts/16/responsive/Tabla-Carga-de-llaves-sm.png 480w, 
+								    ./../media/posts/16/responsive/Tabla-Carga-de-llaves-md.png 768w, 
+								    ./../media/posts/16/responsive/Tabla-Carga-de-llaves-lg.png 1024w, 
+								    ./../media/posts/16/responsive/Tabla-Carga-de-llaves-xl.png 1360w, 
+								    ./../media/posts/16/responsive/Tabla-Carga-de-llaves-2xl.png 1600w
+						        " 
+							    height="347" 
+							    width="1064" 
+							    alt=""
+						    >
+					    </figure>
+			            <p>
+					        Mensaje en ASCII: <code>&lt;STX&gt;<stx>0800&lt;ETX&gt;&lt;VT&gt;</stx></code><stx><etx><vt><br><br>Mensaje en Hexadecimal: <code>{0x02, 0x30, 0x38, 0x30, 0x30, 0x03, 0x0B}</code></vt></etx></stx>
+					    </p>
+					    <h4 id="respuesta-de-carga-de-llaves">Respuesta de Carga de Llaves</h4>
+					    <h6 
+					        id="nbsp-datonbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsplargonbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbsp-nbspcomentario"
+					    >
+					        &nbsp; DATO&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;LARGO&nbsp; &nbsp; &nbsp; &nbsp; 
+						    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;COMENTARIO
+					    </h6>
+					    <figure class="post__image post__image--center">
+					        <img loading="lazy" 
+						        src="./../media/posts/16/Tabla-Carga-de-llaves-resp.png" 
+						        sizes="(max-width: 48em) 100vw, 768px" 
+						        srcset="
+							        ./../media/posts/16/responsive/Tabla-Carga-de-llaves-resp-xs.png 300w, 
+								    ./../media/posts/16/responsive/Tabla-Carga-de-llaves-resp-sm.png 480w, 
+								    ./../media/posts/16/responsive/Tabla-Carga-de-llaves-resp-md.png 768w, 
+								    ./../media/posts/16/responsive/Tabla-Carga-de-llaves-resp-lg.png 1024w,
+								    ./../media/posts/16/responsive/Tabla-Carga-de-llaves-resp-xl.png 1360w,
+								    ./../media/posts/16/responsive/Tabla-Carga-de-llaves-resp-2xl.png 1600w
+							    " 
+							    height="801" 
+							    width="1064" 
+							    alt=""
+						    >
+					    </figure>
+				    </div>
+			        </article>
+                <nav class="post__nav">
+                    <div class="post__nav-inner">
+                        <div class="post__nav-prev">
+                            <svg width="1.041em" height="0.416em" aria-hidden="true"><use xlink:href="./../assets/svg/svg-map.svg#arrow-prev" /></svg>
+                            <a href="./../mensaje-de-poll/index.html" class="invert post__nav-link" rel="prev"><span>Previous</span> Mensaje de Poll</a>
+                        </div>
+                        <div class="post__nav-next">
+                            <a href="./../mensaje-de-cambio-a-pos-normal/index.html" class="invert post__nav-link" rel="next"><span>Next</span> Mensaje de Cambio a POS Normal </a>
+                            <svg width="1.041em" height="0.416em" aria-hidden="true"><use xlink:href="./../assets/svg/svg-map.svg#arrow-next" /></svg>
+                        </div>
+                    </div>
+                </nav>
+		    </main>
+		    <footer class="footer">
+			    <div class="footer__copyright">
+				    <p class="align-center">Documentación de Integración</p>
+				    <p class="align-center">Multicaja S.A</p>
+				</div>
+				<button class="footer__bttop js-footer__bttop" aria-label="Back to top">
+				    <svg>
+					    <title>Back to top</title><use xlink:href="./../assets/svg/svg-map.svg#toparrow"/>
+					</svg>
+				</button>
+			</footer>
+	    </div>
+		<script>window.publiiThemeMenuConfig = {    
+        mobileMenuMode: 'sidebar',
+        animationSpeed: 300,
+        submenuWidth: 'auto',
+        doubleClickTime: 500,
+        mobileMenuExpandableSubmenus: true, 
+        relatedContainerForOverlayMenuSelector: '.top',
+   };</script><script defer="defer" src="./../assets/js/scripts.min.js?v=f4c4d35432d0e17d212f2fae4e0f8247"></script><script>var images = document.querySelectorAll('img[loading]');
+
+        for (var i = 0; i < images.length; i++) {
+            if (images[i].complete) {
+                images[i].classList.add('is-loaded');
+            } else {
+                images[i].addEventListener('load', function () {
+                    this.classList.add('is-loaded');
+                }, false);
+            }
+        }</script></body></html>

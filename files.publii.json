@@ -1,0 +1,1332 @@
+[
+    {
+        "path": "404.html",
+        "type": "file",
+        "md5": "47a7dca3f5ae7b87403d3a5365a2e31a"
+    },
+    {
+        "path": "assets",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/css",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/css/editor.css",
+        "type": "file",
+        "md5": "4202808df745f2ac7ab250606fa0d272"
+    },
+    {
+        "path": "/assets/css/main.css",
+        "type": "file",
+        "md5": "4e673e4aff4cb8371a06570c3ba75d06"
+    },
+    {
+        "path": "/assets/css/photoswipe.css",
+        "type": "file",
+        "md5": "7331f6eb15671b2fc8e3ffd46e849f7b"
+    },
+    {
+        "path": "/assets/css/style.css",
+        "type": "file",
+        "md5": "1d9126d5c592483966037cf187b30969"
+    },
+    {
+        "path": "assets/js",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/js/photoswipe-ui-default.min.js",
+        "type": "file",
+        "md5": "9952f77ca2b8fbc9449a268008ea8dee"
+    },
+    {
+        "path": "/assets/js/photoswipe.min.js",
+        "type": "file",
+        "md5": "b586a3bc288c989ecce7b81b48e35855"
+    },
+    {
+        "path": "/assets/js/scripts.js",
+        "type": "file",
+        "md5": "932f325ea2f7fb1467e84c97f137e0f9"
+    },
+    {
+        "path": "/assets/js/scripts.min.js",
+        "type": "file",
+        "md5": "f4c4d35432d0e17d212f2fae4e0f8247"
+    },
+    {
+        "path": "/assets/js/svg-fix.js",
+        "type": "file",
+        "md5": "9b7d020c55e2b4f77ab40c97f88f9ff4"
+    },
+    {
+        "path": "/assets/js/svg-map.js",
+        "type": "file",
+        "md5": "3fc55b509d613f5e49db25528dfafee1"
+    },
+    {
+        "path": "assets/svg",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/svg/gallery-icons-dark.svg",
+        "type": "file",
+        "md5": "b40f17fabcda1519011795fa715c5751"
+    },
+    {
+        "path": "/assets/svg/gallery-icons-light.svg",
+        "type": "file",
+        "md5": "ae5b8ffffb37a64a9be016441a42d939"
+    },
+    {
+        "path": "/assets/svg/search.svg",
+        "type": "file",
+        "md5": "a5bb83b82b98f41b359f20dbf9db6e44"
+    },
+    {
+        "path": "/assets/svg/svg-map.svg",
+        "type": "file",
+        "md5": "3c5bef20cd9e16841afe49cf089a6c20"
+    },
+    {
+        "path": "authors",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "authors/multicaja-sa",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/authors/multicaja-sa/index.html",
+        "type": "file",
+        "md5": "7d4bfbe830846a4fa23f4647a9d1572d"
+    },
+    {
+        "path": "authors/multicaja-sa/page",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "authors/multicaja-sa/page/2",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/authors/multicaja-sa/page/2/index.html",
+        "type": "file",
+        "md5": "4e4edb18bc39d43ebc69e1e4b1518573"
+    },
+    {
+        "path": "index.html",
+        "type": "file",
+        "md5": "e7eda5c45a25d13b1f3cc391023810ba"
+    },
+    {
+        "path": "media",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/authors",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/files",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/1",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/1/Prot.-de-com..png",
+        "type": "file",
+        "md5": "a716dc480b0cd2a4428787f76c1160ac"
+    },
+    {
+        "path": "media/posts/1/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/1/responsive/Prot.-de-com.-2xl.png",
+        "type": "file",
+        "md5": "77c09574fccffd3a281f6746f3f20731"
+    },
+    {
+        "path": "/media/posts/1/responsive/Prot.-de-com.-lg.png",
+        "type": "file",
+        "md5": "f31f888688db020c870ec43f989eb6c0"
+    },
+    {
+        "path": "/media/posts/1/responsive/Prot.-de-com.-md.png",
+        "type": "file",
+        "md5": "59bdb77b313c6f97c5d29c179108edc6"
+    },
+    {
+        "path": "/media/posts/1/responsive/Prot.-de-com.-sm.png",
+        "type": "file",
+        "md5": "b529fb0fbbf4c4e9cbe56ba830abc25c"
+    },
+    {
+        "path": "/media/posts/1/responsive/Prot.-de-com.-xl.png",
+        "type": "file",
+        "md5": "77c09574fccffd3a281f6746f3f20731"
+    },
+    {
+        "path": "/media/posts/1/responsive/Prot.-de-com.-xs.png",
+        "type": "file",
+        "md5": "375e255fae57427c36f9eb4c9fc8a480"
+    },
+    {
+        "path": "/media/posts/1/responsive/Tabla-Prot.-de-com-2xl.png",
+        "type": "file",
+        "md5": "de7ef51b0737bf85702b1b55b8869300"
+    },
+    {
+        "path": "/media/posts/1/responsive/Tabla-Prot.-de-com-lg.png",
+        "type": "file",
+        "md5": "de7ef51b0737bf85702b1b55b8869300"
+    },
+    {
+        "path": "/media/posts/1/responsive/Tabla-Prot.-de-com-md.png",
+        "type": "file",
+        "md5": "de7ef51b0737bf85702b1b55b8869300"
+    },
+    {
+        "path": "/media/posts/1/responsive/Tabla-Prot.-de-com-sm.png",
+        "type": "file",
+        "md5": "8a38df67e9d171f4f71a2b79b2831b80"
+    },
+    {
+        "path": "/media/posts/1/responsive/Tabla-Prot.-de-com-xl.png",
+        "type": "file",
+        "md5": "de7ef51b0737bf85702b1b55b8869300"
+    },
+    {
+        "path": "/media/posts/1/responsive/Tabla-Prot.-de-com-xs.png",
+        "type": "file",
+        "md5": "66432e496fbda89ebb02243169c4f36a"
+    },
+    {
+        "path": "/media/posts/1/Tabla-Prot.-de-com.png",
+        "type": "file",
+        "md5": "cffe8a4bd0d64c1b5e9b58da9c42c95c"
+    },
+    {
+        "path": "media/posts/10",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/10/Detalle-de-Ventas.png",
+        "type": "file",
+        "md5": "7bb95c482429d012800c0802a12c5998"
+    },
+    {
+        "path": "media/posts/10/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/10/responsive/Detalle-de-Ventas-2xl.png",
+        "type": "file",
+        "md5": "b409e692031527ffc1fcf112773bff87"
+    },
+    {
+        "path": "/media/posts/10/responsive/Detalle-de-Ventas-lg.png",
+        "type": "file",
+        "md5": "b409e692031527ffc1fcf112773bff87"
+    },
+    {
+        "path": "/media/posts/10/responsive/Detalle-de-Ventas-md.png",
+        "type": "file",
+        "md5": "b409e692031527ffc1fcf112773bff87"
+    },
+    {
+        "path": "/media/posts/10/responsive/Detalle-de-Ventas-sm.png",
+        "type": "file",
+        "md5": "28b09524e1671f6ff064f0b0f18ecff0"
+    },
+    {
+        "path": "/media/posts/10/responsive/Detalle-de-Ventas-xl.png",
+        "type": "file",
+        "md5": "b409e692031527ffc1fcf112773bff87"
+    },
+    {
+        "path": "/media/posts/10/responsive/Detalle-de-Ventas-xs.png",
+        "type": "file",
+        "md5": "e46a5b6c600e74191501512892a68aa4"
+    },
+    {
+        "path": "/media/posts/10/responsive/Tabla-Detalle-de-Ventas-2xl.png",
+        "type": "file",
+        "md5": "a6b6540a0fc519457a0d0b26767fccb2"
+    },
+    {
+        "path": "/media/posts/10/responsive/Tabla-Detalle-de-Ventas-lg.png",
+        "type": "file",
+        "md5": "b1614c4008ed7debcfeb4b2c604dc38d"
+    },
+    {
+        "path": "/media/posts/10/responsive/Tabla-Detalle-de-Ventas-md.png",
+        "type": "file",
+        "md5": "245a993395a78167989196ca9af50cb1"
+    },
+    {
+        "path": "/media/posts/10/responsive/Tabla-Detalle-de-Ventas-resp-2xl.png",
+        "type": "file",
+        "md5": "59a46ca27dcd2939e0d60d8af982c6a5"
+    },
+    {
+        "path": "/media/posts/10/responsive/Tabla-Detalle-de-Ventas-resp-lg.png",
+        "type": "file",
+        "md5": "1766f3f7778897e2c272e3bcb749d7b8"
+    },
+    {
+        "path": "/media/posts/10/responsive/Tabla-Detalle-de-Ventas-resp-md.png",
+        "type": "file",
+        "md5": "983f7d1f73a1b9f4bf7dc71903898b32"
+    },
+    {
+        "path": "/media/posts/10/responsive/Tabla-Detalle-de-Ventas-resp-sm.png",
+        "type": "file",
+        "md5": "5dda6b2bc3414506a776ca70f1222d30"
+    },
+    {
+        "path": "/media/posts/10/responsive/Tabla-Detalle-de-Ventas-resp-xl.png",
+        "type": "file",
+        "md5": "59a46ca27dcd2939e0d60d8af982c6a5"
+    },
+    {
+        "path": "/media/posts/10/responsive/Tabla-Detalle-de-Ventas-resp-xs.png",
+        "type": "file",
+        "md5": "2445b98615e9479f9dc4df567e76e9a3"
+    },
+    {
+        "path": "/media/posts/10/responsive/Tabla-Detalle-de-Ventas-sm.png",
+        "type": "file",
+        "md5": "7b092b3c0253295fa6a181c60d06dd5d"
+    },
+    {
+        "path": "/media/posts/10/responsive/Tabla-Detalle-de-Ventas-xl.png",
+        "type": "file",
+        "md5": "a6b6540a0fc519457a0d0b26767fccb2"
+    },
+    {
+        "path": "/media/posts/10/responsive/Tabla-Detalle-de-Ventas-xs.png",
+        "type": "file",
+        "md5": "8fbbcca600db4e01a3dd26bee81ed9e6"
+    },
+    {
+        "path": "/media/posts/10/Tabla-Detalle-de-Ventas-resp.png",
+        "type": "file",
+        "md5": "ea4e32954d0e5c42701e273464a11ce8"
+    },
+    {
+        "path": "/media/posts/10/Tabla-Detalle-de-Ventas.png",
+        "type": "file",
+        "md5": "0f0c44d379679e6df9e14714e787d327"
+    },
+    {
+        "path": "media/posts/11",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/11/Polling.png",
+        "type": "file",
+        "md5": "e77d303f8d9a1bfbc4ec89e56150ad45"
+    },
+    {
+        "path": "media/posts/11/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/11/responsive/Polling-2xl.png",
+        "type": "file",
+        "md5": "cc037afb3aaaf40c19743a733333a522"
+    },
+    {
+        "path": "/media/posts/11/responsive/Polling-lg.png",
+        "type": "file",
+        "md5": "cc037afb3aaaf40c19743a733333a522"
+    },
+    {
+        "path": "/media/posts/11/responsive/Polling-md.png",
+        "type": "file",
+        "md5": "cc037afb3aaaf40c19743a733333a522"
+    },
+    {
+        "path": "/media/posts/11/responsive/Polling-sm.png",
+        "type": "file",
+        "md5": "958916bf96b2e568542c414326e26652"
+    },
+    {
+        "path": "/media/posts/11/responsive/Polling-xl.png",
+        "type": "file",
+        "md5": "cc037afb3aaaf40c19743a733333a522"
+    },
+    {
+        "path": "/media/posts/11/responsive/Polling-xs.png",
+        "type": "file",
+        "md5": "1a2a86fe5355fcb24fcf2136a50adfbe"
+    },
+    {
+        "path": "/media/posts/11/responsive/Tabla-Polling-2xl.png",
+        "type": "file",
+        "md5": "55b7ad2851759482a84aa1ebd6ae9a5f"
+    },
+    {
+        "path": "/media/posts/11/responsive/Tabla-Polling-lg.png",
+        "type": "file",
+        "md5": "e9445148495993a4bffb5f459e48e858"
+    },
+    {
+        "path": "/media/posts/11/responsive/Tabla-Polling-md.png",
+        "type": "file",
+        "md5": "ea46a6c31f6b5cfc3bbf3adbbb5d03e2"
+    },
+    {
+        "path": "/media/posts/11/responsive/Tabla-Polling-resp-2xl.png",
+        "type": "file",
+        "md5": "513bde8c6d8f886e5d06c93fbe243a48"
+    },
+    {
+        "path": "/media/posts/11/responsive/Tabla-Polling-resp-lg.png",
+        "type": "file",
+        "md5": "61affe71ac64ec4cf63a7ec638cdadb8"
+    },
+    {
+        "path": "/media/posts/11/responsive/Tabla-Polling-resp-md.png",
+        "type": "file",
+        "md5": "e354a8034d4b312ea9ada508a23f6cf5"
+    },
+    {
+        "path": "/media/posts/11/responsive/Tabla-Polling-resp-sm.png",
+        "type": "file",
+        "md5": "2badb9ec7581abb21400c762c9314ea5"
+    },
+    {
+        "path": "/media/posts/11/responsive/Tabla-Polling-resp-xl.png",
+        "type": "file",
+        "md5": "513bde8c6d8f886e5d06c93fbe243a48"
+    },
+    {
+        "path": "/media/posts/11/responsive/Tabla-Polling-resp-xs.png",
+        "type": "file",
+        "md5": "472e2f4159cd283a16e02bd8f4b72a7d"
+    },
+    {
+        "path": "/media/posts/11/responsive/Tabla-Polling-sm.png",
+        "type": "file",
+        "md5": "73c575c99181836b40c6674eff8da9dd"
+    },
+    {
+        "path": "/media/posts/11/responsive/Tabla-Polling-xl.png",
+        "type": "file",
+        "md5": "55b7ad2851759482a84aa1ebd6ae9a5f"
+    },
+    {
+        "path": "/media/posts/11/responsive/Tabla-Polling-xs.png",
+        "type": "file",
+        "md5": "0278fb99cdd8e6ff5b0d0fe8efdd8eb6"
+    },
+    {
+        "path": "/media/posts/11/Tabla-Polling-resp.png",
+        "type": "file",
+        "md5": "03b79d05df3565c59976da81a7751cb8"
+    },
+    {
+        "path": "/media/posts/11/Tabla-Polling.png",
+        "type": "file",
+        "md5": "6277add464bc4a779c2355e2840c3129"
+    },
+    {
+        "path": "media/posts/12",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/12/Cambios-POS-normal.png",
+        "type": "file",
+        "md5": "7f66c3636f37a1273fa9eb50e0b55511"
+    },
+    {
+        "path": "media/posts/12/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/12/responsive/Cambios-POS-normal-2xl.png",
+        "type": "file",
+        "md5": "9df29f181c1c34f5de792348ec74446f"
+    },
+    {
+        "path": "/media/posts/12/responsive/Cambios-POS-normal-lg.png",
+        "type": "file",
+        "md5": "9df29f181c1c34f5de792348ec74446f"
+    },
+    {
+        "path": "/media/posts/12/responsive/Cambios-POS-normal-md.png",
+        "type": "file",
+        "md5": "9df29f181c1c34f5de792348ec74446f"
+    },
+    {
+        "path": "/media/posts/12/responsive/Cambios-POS-normal-sm.png",
+        "type": "file",
+        "md5": "d7f1af6889824cbfeed7313ca34c55d1"
+    },
+    {
+        "path": "/media/posts/12/responsive/Cambios-POS-normal-xl.png",
+        "type": "file",
+        "md5": "9df29f181c1c34f5de792348ec74446f"
+    },
+    {
+        "path": "/media/posts/12/responsive/Cambios-POS-normal-xs.png",
+        "type": "file",
+        "md5": "7271545099d5fbb4b62d2d4e44da2bcc"
+    },
+    {
+        "path": "/media/posts/12/responsive/Tabla-Cambios-POS-normal-2xl.png",
+        "type": "file",
+        "md5": "a5dbba59c080cef81dace758be57161f"
+    },
+    {
+        "path": "/media/posts/12/responsive/Tabla-Cambios-POS-normal-lg.png",
+        "type": "file",
+        "md5": "057defc029d8f7ae3e1182dc53dcec0d"
+    },
+    {
+        "path": "/media/posts/12/responsive/Tabla-Cambios-POS-normal-md.png",
+        "type": "file",
+        "md5": "a9a784aeec3346124e01697333c1b743"
+    },
+    {
+        "path": "/media/posts/12/responsive/Tabla-Cambios-POS-normal-resp-2xl.png",
+        "type": "file",
+        "md5": "5fdf38bd7de9b89bcee5b1dbb964c440"
+    },
+    {
+        "path": "/media/posts/12/responsive/Tabla-Cambios-POS-normal-resp-lg.png",
+        "type": "file",
+        "md5": "8fbf398aa8989e1b2a4214ffa0b98939"
+    },
+    {
+        "path": "/media/posts/12/responsive/Tabla-Cambios-POS-normal-resp-md.png",
+        "type": "file",
+        "md5": "7ad8b2cfecfbfe01fd082732c9d4fcc0"
+    },
+    {
+        "path": "/media/posts/12/responsive/Tabla-Cambios-POS-normal-resp-sm.png",
+        "type": "file",
+        "md5": "f0f439f99d73fe4b4cc4b18c35c99e03"
+    },
+    {
+        "path": "/media/posts/12/responsive/Tabla-Cambios-POS-normal-resp-xl.png",
+        "type": "file",
+        "md5": "5fdf38bd7de9b89bcee5b1dbb964c440"
+    },
+    {
+        "path": "/media/posts/12/responsive/Tabla-Cambios-POS-normal-resp-xs.png",
+        "type": "file",
+        "md5": "ac19397e1f4f9c045f5365750a279f42"
+    },
+    {
+        "path": "/media/posts/12/responsive/Tabla-Cambios-POS-normal-sm.png",
+        "type": "file",
+        "md5": "6e3e0b999bd90e7f1e8e36feb90ef79d"
+    },
+    {
+        "path": "/media/posts/12/responsive/Tabla-Cambios-POS-normal-xl.png",
+        "type": "file",
+        "md5": "a5dbba59c080cef81dace758be57161f"
+    },
+    {
+        "path": "/media/posts/12/responsive/Tabla-Cambios-POS-normal-xs.png",
+        "type": "file",
+        "md5": "411f3d7aa4fb36b0b07ad7533c9cd0be"
+    },
+    {
+        "path": "/media/posts/12/Tabla-Cambios-POS-normal-resp.png",
+        "type": "file",
+        "md5": "62c01e18ec875fd1ccab319c010ade25"
+    },
+    {
+        "path": "/media/posts/12/Tabla-Cambios-POS-normal.png",
+        "type": "file",
+        "md5": "2bef7be9f43577a05bdeb2ed6d6ec534"
+    },
+    {
+        "path": "media/posts/4",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/4/Mensajeria-2.png",
+        "type": "file",
+        "md5": "a751c3b233f6969e52e93d6fa8c44871"
+    },
+    {
+        "path": "media/posts/4/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/4/responsive/Mensajeria-2-2xl.png",
+        "type": "file",
+        "md5": "8693a16eec4623c16301b1e96e26b275"
+    },
+    {
+        "path": "/media/posts/4/responsive/Mensajeria-2-lg.png",
+        "type": "file",
+        "md5": "2e2a4aaaaa2c9ee9e41a224b365135a6"
+    },
+    {
+        "path": "/media/posts/4/responsive/Mensajeria-2-md.png",
+        "type": "file",
+        "md5": "f8392ba55114eb444be2127f162b4b15"
+    },
+    {
+        "path": "/media/posts/4/responsive/Mensajeria-2-sm.png",
+        "type": "file",
+        "md5": "746f2605134095b3116abe74803dd7f2"
+    },
+    {
+        "path": "/media/posts/4/responsive/Mensajeria-2-xl.png",
+        "type": "file",
+        "md5": "84011c700745d5dede75c63c31f8fa4b"
+    },
+    {
+        "path": "/media/posts/4/responsive/Mensajeria-2-xs.png",
+        "type": "file",
+        "md5": "f5b9e12c8ff03cffd51492dfc994ae8a"
+    },
+    {
+        "path": "/media/posts/4/responsive/Tabla-Mensajeria-3-2xl.png",
+        "type": "file",
+        "md5": "20ddd067b30ffe29fc96e31a5b888cd1"
+    },
+    {
+        "path": "/media/posts/4/responsive/Tabla-Mensajeria-3-lg.png",
+        "type": "file",
+        "md5": "c6c1077109e38bd7ac78ec560226ecb3"
+    },
+    {
+        "path": "/media/posts/4/responsive/Tabla-Mensajeria-3-md.png",
+        "type": "file",
+        "md5": "a818c0a781a1b82302a5c21a28483c45"
+    },
+    {
+        "path": "/media/posts/4/responsive/Tabla-Mensajeria-3-sm.png",
+        "type": "file",
+        "md5": "da6204d1b2d309d1ae334ce86a335186"
+    },
+    {
+        "path": "/media/posts/4/responsive/Tabla-Mensajeria-3-xl.png",
+        "type": "file",
+        "md5": "20ddd067b30ffe29fc96e31a5b888cd1"
+    },
+    {
+        "path": "/media/posts/4/responsive/Tabla-Mensajeria-3-xs.png",
+        "type": "file",
+        "md5": "3ac2079f724aeef0b62635d13177717c"
+    },
+    {
+        "path": "/media/posts/4/responsive/Tabla-mensajeria-resp-3-2xl.png",
+        "type": "file",
+        "md5": "f8fb0193c15eb7b65bdeb9eea93b80e5"
+    },
+    {
+        "path": "/media/posts/4/responsive/Tabla-mensajeria-resp-3-lg.png",
+        "type": "file",
+        "md5": "0c9e9f70682784cda9e436d886785519"
+    },
+    {
+        "path": "/media/posts/4/responsive/Tabla-mensajeria-resp-3-md.png",
+        "type": "file",
+        "md5": "975ef92066f6216155b52635ef69df22"
+    },
+    {
+        "path": "/media/posts/4/responsive/Tabla-mensajeria-resp-3-sm.png",
+        "type": "file",
+        "md5": "ea1a7ea7c5f4c618310a53753ad6b067"
+    },
+    {
+        "path": "/media/posts/4/responsive/Tabla-mensajeria-resp-3-xl.png",
+        "type": "file",
+        "md5": "f8fb0193c15eb7b65bdeb9eea93b80e5"
+    },
+    {
+        "path": "/media/posts/4/responsive/Tabla-mensajeria-resp-3-xs.png",
+        "type": "file",
+        "md5": "07bd915ccc777da080a7f6ae9ca82813"
+    },
+    {
+        "path": "/media/posts/4/Tabla-Mensajeria-3.png",
+        "type": "file",
+        "md5": "0955af614ec7f6b2c723968fdce8b347"
+    },
+    {
+        "path": "/media/posts/4/Tabla-mensajeria-resp-3.png",
+        "type": "file",
+        "md5": "eb293e15b42e0ea8840ce696aae70064"
+    },
+    {
+        "path": "media/posts/5",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/5/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/5/responsive/Tabla-errores-2xl.png",
+        "type": "file",
+        "md5": "952b7361e16f269bc63302420eddef96"
+    },
+    {
+        "path": "/media/posts/5/responsive/Tabla-errores-lg.png",
+        "type": "file",
+        "md5": "e8f0b05030cf4e8a5f5d32f91ec1553a"
+    },
+    {
+        "path": "/media/posts/5/responsive/Tabla-errores-md.png",
+        "type": "file",
+        "md5": "b4286dbc862cb7229db9b720ff7299c7"
+    },
+    {
+        "path": "/media/posts/5/responsive/Tabla-errores-sm.png",
+        "type": "file",
+        "md5": "b18254f3d32fda484eea7289a0f99ef1"
+    },
+    {
+        "path": "/media/posts/5/responsive/Tabla-errores-xl.png",
+        "type": "file",
+        "md5": "952b7361e16f269bc63302420eddef96"
+    },
+    {
+        "path": "/media/posts/5/responsive/Tabla-errores-xs.png",
+        "type": "file",
+        "md5": "bcff003dc8d0cfb8dc79d8e11d7f6b09"
+    },
+    {
+        "path": "/media/posts/5/Tabla-errores.png",
+        "type": "file",
+        "md5": "d7f8d66ca8f1e50bc2cb2ac86a6a1c23"
+    },
+    {
+        "path": "media/posts/6",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/6/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/6/responsive/tabla-ultima-venta-2xl.png",
+        "type": "file",
+        "md5": "422f50d8ee4fa77a9ff94f34372fd706"
+    },
+    {
+        "path": "/media/posts/6/responsive/tabla-ultima-venta-lg.png",
+        "type": "file",
+        "md5": "470cb78c7f25c4c6dbf04e5f409a0183"
+    },
+    {
+        "path": "/media/posts/6/responsive/tabla-ultima-venta-md.png",
+        "type": "file",
+        "md5": "192a259dfd93f456f3ebb8575753dbd1"
+    },
+    {
+        "path": "/media/posts/6/responsive/tabla-ultima-venta-resp-2-2xl.png",
+        "type": "file",
+        "md5": "01a8f7f59647ee56a44b58da5aac092e"
+    },
+    {
+        "path": "/media/posts/6/responsive/tabla-ultima-venta-resp-2-lg.png",
+        "type": "file",
+        "md5": "00f358c3b5e5b602d0f8fa339e46a0c8"
+    },
+    {
+        "path": "/media/posts/6/responsive/tabla-ultima-venta-resp-2-md.png",
+        "type": "file",
+        "md5": "b4e04232a410c8f070f5fa3afd5a4bbd"
+    },
+    {
+        "path": "/media/posts/6/responsive/tabla-ultima-venta-resp-2-sm.png",
+        "type": "file",
+        "md5": "4ded17a7503b578847f7b03b5b39e4dc"
+    },
+    {
+        "path": "/media/posts/6/responsive/tabla-ultima-venta-resp-2-xl.png",
+        "type": "file",
+        "md5": "01a8f7f59647ee56a44b58da5aac092e"
+    },
+    {
+        "path": "/media/posts/6/responsive/tabla-ultima-venta-resp-2-xs.png",
+        "type": "file",
+        "md5": "a9f60f0469b3aa0591344f731b64354f"
+    },
+    {
+        "path": "/media/posts/6/responsive/tabla-ultima-venta-sm.png",
+        "type": "file",
+        "md5": "0aa30f3e7df4736cb6c57dabf67ef76d"
+    },
+    {
+        "path": "/media/posts/6/responsive/tabla-ultima-venta-xl.png",
+        "type": "file",
+        "md5": "422f50d8ee4fa77a9ff94f34372fd706"
+    },
+    {
+        "path": "/media/posts/6/responsive/tabla-ultima-venta-xs.png",
+        "type": "file",
+        "md5": "d8db7bbe8cf116d8195de00ea65f8d08"
+    },
+    {
+        "path": "/media/posts/6/responsive/ultima-venta-3-2xl.png",
+        "type": "file",
+        "md5": "933d40b93d9c8c056c2f9053852bd711"
+    },
+    {
+        "path": "/media/posts/6/responsive/ultima-venta-3-lg.png",
+        "type": "file",
+        "md5": "933d40b93d9c8c056c2f9053852bd711"
+    },
+    {
+        "path": "/media/posts/6/responsive/ultima-venta-3-md.png",
+        "type": "file",
+        "md5": "933d40b93d9c8c056c2f9053852bd711"
+    },
+    {
+        "path": "/media/posts/6/responsive/ultima-venta-3-sm.png",
+        "type": "file",
+        "md5": "51a741abfa6a077ed630c52798101649"
+    },
+    {
+        "path": "/media/posts/6/responsive/ultima-venta-3-xl.png",
+        "type": "file",
+        "md5": "933d40b93d9c8c056c2f9053852bd711"
+    },
+    {
+        "path": "/media/posts/6/responsive/ultima-venta-3-xs.png",
+        "type": "file",
+        "md5": "1bbd16fe9dc31ab16805658e2c645272"
+    },
+    {
+        "path": "/media/posts/6/tabla-ultima-venta-resp-2.png",
+        "type": "file",
+        "md5": "b46eb0e78925893facc4184665f4d4e0"
+    },
+    {
+        "path": "/media/posts/6/tabla-ultima-venta.png",
+        "type": "file",
+        "md5": "a3e55841db8fbba384645ff6293ac415"
+    },
+    {
+        "path": "/media/posts/6/ultima-venta-3.png",
+        "type": "file",
+        "md5": "c0ff6664e0bf3a3de7cb7fb10e91c5c8"
+    },
+    {
+        "path": "media/posts/7",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/7/Anulacion.png",
+        "type": "file",
+        "md5": "d6eb26c18f87dad0c96ed7ae534aec9d"
+    },
+    {
+        "path": "media/posts/7/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/7/responsive/Anulacion-2xl.png",
+        "type": "file",
+        "md5": "7287dd98c9926027dd25e3d0b9da1bc2"
+    },
+    {
+        "path": "/media/posts/7/responsive/Anulacion-lg.png",
+        "type": "file",
+        "md5": "9b3f1f82046b14a04e174f80ce81e42e"
+    },
+    {
+        "path": "/media/posts/7/responsive/Anulacion-md.png",
+        "type": "file",
+        "md5": "df1211674f53ee0a5e658f9aaa54b525"
+    },
+    {
+        "path": "/media/posts/7/responsive/Anulacion-sm.png",
+        "type": "file",
+        "md5": "0fcd26c710fdcf9d2a2152068eab781e"
+    },
+    {
+        "path": "/media/posts/7/responsive/Anulacion-xl.png",
+        "type": "file",
+        "md5": "c1998b991aac4682d3ff5eef320422b3"
+    },
+    {
+        "path": "/media/posts/7/responsive/Anulacion-xs.png",
+        "type": "file",
+        "md5": "7d71893b4264dbeae77597497244ecfb"
+    },
+    {
+        "path": "/media/posts/7/responsive/Tabla-Anulacion-2-2xl.png",
+        "type": "file",
+        "md5": "a687ff88e530fe2d6fe8d2a0fe7738da"
+    },
+    {
+        "path": "/media/posts/7/responsive/Tabla-Anulacion-2-lg.png",
+        "type": "file",
+        "md5": "af108a507a38ebafa2af4b135a1fc09b"
+    },
+    {
+        "path": "/media/posts/7/responsive/Tabla-Anulacion-2-md.png",
+        "type": "file",
+        "md5": "61e3c4b01101405ce856a05036a6a26f"
+    },
+    {
+        "path": "/media/posts/7/responsive/Tabla-Anulacion-2-sm.png",
+        "type": "file",
+        "md5": "251ce4c746520f2194fd888eb381de88"
+    },
+    {
+        "path": "/media/posts/7/responsive/Tabla-Anulacion-2-xl.png",
+        "type": "file",
+        "md5": "a687ff88e530fe2d6fe8d2a0fe7738da"
+    },
+    {
+        "path": "/media/posts/7/responsive/Tabla-Anulacion-2-xs.png",
+        "type": "file",
+        "md5": "ee85d2bfa2ec758354c20efd8d399d93"
+    },
+    {
+        "path": "/media/posts/7/responsive/Tabla-Anulacion-resp-2-2xl.png",
+        "type": "file",
+        "md5": "62753eecabe365a29a790270d03ac316"
+    },
+    {
+        "path": "/media/posts/7/responsive/Tabla-Anulacion-resp-2-lg.png",
+        "type": "file",
+        "md5": "0bdd646d3d0ea3ba3d1f92805cf3d9f0"
+    },
+    {
+        "path": "/media/posts/7/responsive/Tabla-Anulacion-resp-2-md.png",
+        "type": "file",
+        "md5": "5629a17e6fedcf6ed89aabec4c0603df"
+    },
+    {
+        "path": "/media/posts/7/responsive/Tabla-Anulacion-resp-2-sm.png",
+        "type": "file",
+        "md5": "bf31f3a14638a808eb4ad02ebeb76099"
+    },
+    {
+        "path": "/media/posts/7/responsive/Tabla-Anulacion-resp-2-xl.png",
+        "type": "file",
+        "md5": "62753eecabe365a29a790270d03ac316"
+    },
+    {
+        "path": "/media/posts/7/responsive/Tabla-Anulacion-resp-2-xs.png",
+        "type": "file",
+        "md5": "b87beb78dc04a2bbab18c33d4fa880ae"
+    },
+    {
+        "path": "/media/posts/7/Tabla-Anulacion-2.png",
+        "type": "file",
+        "md5": "ff994da7928d95305d7645206fea774a"
+    },
+    {
+        "path": "/media/posts/7/Tabla-Anulacion-resp-2.png",
+        "type": "file",
+        "md5": "ee397199caebb07c7bf16e00155b838e"
+    },
+    {
+        "path": "media/posts/8",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/8/cierre-2.png",
+        "type": "file",
+        "md5": "6f4becaceff600b49963f8be530b5e18"
+    },
+    {
+        "path": "media/posts/8/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/8/responsive/cierre-2-2xl.png",
+        "type": "file",
+        "md5": "70d6c019e2760ebfe0aacbd9fb3e98b9"
+    },
+    {
+        "path": "/media/posts/8/responsive/cierre-2-lg.png",
+        "type": "file",
+        "md5": "70d6c019e2760ebfe0aacbd9fb3e98b9"
+    },
+    {
+        "path": "/media/posts/8/responsive/cierre-2-md.png",
+        "type": "file",
+        "md5": "70d6c019e2760ebfe0aacbd9fb3e98b9"
+    },
+    {
+        "path": "/media/posts/8/responsive/cierre-2-sm.png",
+        "type": "file",
+        "md5": "988aad78fe8635a940c9b07d6d03535e"
+    },
+    {
+        "path": "/media/posts/8/responsive/cierre-2-xl.png",
+        "type": "file",
+        "md5": "70d6c019e2760ebfe0aacbd9fb3e98b9"
+    },
+    {
+        "path": "/media/posts/8/responsive/cierre-2-xs.png",
+        "type": "file",
+        "md5": "fa317f932c58610bd6266a0eb8f21413"
+    },
+    {
+        "path": "/media/posts/8/responsive/Tabla-cierre-2-2xl.png",
+        "type": "file",
+        "md5": "f7e10ac7dda33464bf41b18fa17b78ef"
+    },
+    {
+        "path": "/media/posts/8/responsive/Tabla-cierre-2-lg.png",
+        "type": "file",
+        "md5": "67a264c339c0a25e78c2065478df4389"
+    },
+    {
+        "path": "/media/posts/8/responsive/Tabla-cierre-2-md.png",
+        "type": "file",
+        "md5": "34617fbc48e567aa9ebf062def0341a0"
+    },
+    {
+        "path": "/media/posts/8/responsive/Tabla-cierre-2-sm.png",
+        "type": "file",
+        "md5": "c5a4f229feab301ff0d16ce636f9da37"
+    },
+    {
+        "path": "/media/posts/8/responsive/Tabla-cierre-2-xl.png",
+        "type": "file",
+        "md5": "f7e10ac7dda33464bf41b18fa17b78ef"
+    },
+    {
+        "path": "/media/posts/8/responsive/Tabla-cierre-2-xs.png",
+        "type": "file",
+        "md5": "28c4ee4f2a617e800924ee022477e0e1"
+    },
+    {
+        "path": "/media/posts/8/responsive/Tabla-cierre-resp-2-2xl.png",
+        "type": "file",
+        "md5": "29972632ccc2a8b727de912cdb8b60c0"
+    },
+    {
+        "path": "/media/posts/8/responsive/Tabla-cierre-resp-2-lg.png",
+        "type": "file",
+        "md5": "3a0b0e3086e48d18189f915476d1c446"
+    },
+    {
+        "path": "/media/posts/8/responsive/Tabla-cierre-resp-2-md.png",
+        "type": "file",
+        "md5": "af63bae8f6514c25850d9a921eb8179f"
+    },
+    {
+        "path": "/media/posts/8/responsive/Tabla-cierre-resp-2-sm.png",
+        "type": "file",
+        "md5": "c2e4802357937a0eecd42118b0f4624d"
+    },
+    {
+        "path": "/media/posts/8/responsive/Tabla-cierre-resp-2-xl.png",
+        "type": "file",
+        "md5": "29972632ccc2a8b727de912cdb8b60c0"
+    },
+    {
+        "path": "/media/posts/8/responsive/Tabla-cierre-resp-2-xs.png",
+        "type": "file",
+        "md5": "9b32a8306ab18e1c8734515fecceb85f"
+    },
+    {
+        "path": "/media/posts/8/Tabla-cierre-2.png",
+        "type": "file",
+        "md5": "e4ceb4b7315b2b48345c25bacc5f3f99"
+    },
+    {
+        "path": "/media/posts/8/Tabla-cierre-resp-2.png",
+        "type": "file",
+        "md5": "2ca42785779ef799f44db668479d4a2c"
+    },
+    {
+        "path": "media/posts/9",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/9/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/9/responsive/Tabla-Totales-2xl.png",
+        "type": "file",
+        "md5": "f9abb3b3159a3920854a07324aa4f4d0"
+    },
+    {
+        "path": "/media/posts/9/responsive/Tabla-Totales-lg.png",
+        "type": "file",
+        "md5": "c67bc458650d00bfe64b015b0a8af1ad"
+    },
+    {
+        "path": "/media/posts/9/responsive/Tabla-Totales-md.png",
+        "type": "file",
+        "md5": "f39e198fdeb91fd983bf0480a2dbc956"
+    },
+    {
+        "path": "/media/posts/9/responsive/Tabla-Totales-resp-2-2xl.png",
+        "type": "file",
+        "md5": "c52a36327cc2663db0461d320a95481d"
+    },
+    {
+        "path": "/media/posts/9/responsive/Tabla-Totales-resp-2-lg.png",
+        "type": "file",
+        "md5": "b71c0d605c837d02243363fdc4f34cca"
+    },
+    {
+        "path": "/media/posts/9/responsive/Tabla-Totales-resp-2-md.png",
+        "type": "file",
+        "md5": "0cabe932c0589c286e97f1803ad66752"
+    },
+    {
+        "path": "/media/posts/9/responsive/Tabla-Totales-resp-2-sm.png",
+        "type": "file",
+        "md5": "752cf1d03396da12bb778e654fd73c67"
+    },
+    {
+        "path": "/media/posts/9/responsive/Tabla-Totales-resp-2-xl.png",
+        "type": "file",
+        "md5": "c52a36327cc2663db0461d320a95481d"
+    },
+    {
+        "path": "/media/posts/9/responsive/Tabla-Totales-resp-2-xs.png",
+        "type": "file",
+        "md5": "882bc27ec250e8451df3ab2b521fb2d6"
+    },
+    {
+        "path": "/media/posts/9/responsive/Tabla-Totales-sm.png",
+        "type": "file",
+        "md5": "ef8c06011a260eaf142d4d152c88ceb1"
+    },
+    {
+        "path": "/media/posts/9/responsive/Tabla-Totales-xl.png",
+        "type": "file",
+        "md5": "f9abb3b3159a3920854a07324aa4f4d0"
+    },
+    {
+        "path": "/media/posts/9/responsive/Tabla-Totales-xs.png",
+        "type": "file",
+        "md5": "2d1586ad2a6b1350bf84a5b8b4211bec"
+    },
+    {
+        "path": "/media/posts/9/responsive/Totales-2xl.png",
+        "type": "file",
+        "md5": "dfeff62f779d03ebec6f3f35c696b7ea"
+    },
+    {
+        "path": "/media/posts/9/responsive/Totales-lg.png",
+        "type": "file",
+        "md5": "dfeff62f779d03ebec6f3f35c696b7ea"
+    },
+    {
+        "path": "/media/posts/9/responsive/Totales-md.png",
+        "type": "file",
+        "md5": "dfeff62f779d03ebec6f3f35c696b7ea"
+    },
+    {
+        "path": "/media/posts/9/responsive/Totales-sm.png",
+        "type": "file",
+        "md5": "97c37b1ba2f7aaa79e25ccd5ab755834"
+    },
+    {
+        "path": "/media/posts/9/responsive/Totales-xl.png",
+        "type": "file",
+        "md5": "dfeff62f779d03ebec6f3f35c696b7ea"
+    },
+    {
+        "path": "/media/posts/9/responsive/Totales-xs.png",
+        "type": "file",
+        "md5": "9625cf4205eb038d1da2e6a22c390d10"
+    },
+    {
+        "path": "/media/posts/9/Tabla-Totales-resp-2.png",
+        "type": "file",
+        "md5": "19db4ccebccc9eeecd154e7992fc2c30"
+    },
+    {
+        "path": "/media/posts/9/Tabla-Totales.png",
+        "type": "file",
+        "md5": "8447831458d3ce27c628ce1134a8d118"
+    },
+    {
+        "path": "/media/posts/9/Totales.png",
+        "type": "file",
+        "md5": "de62f4ed53c6ac12a987c4bcb6ccdfaf"
+    },
+    {
+        "path": "media/tags",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/website",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/website/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "mensaje-2",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/mensaje-2/index.html",
+        "type": "file",
+        "md5": "cd0e05f05850e9a71435f9f6fa59edc0"
+    },
+    {
+        "path": "mensaje-de-anulacion",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/mensaje-de-anulacion/index.html",
+        "type": "file",
+        "md5": "2892b8d1d9115f6ddf01768c7f576c3d"
+    },
+    {
+        "path": "mensaje-de-cambio-a-pos-normal",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/mensaje-de-cambio-a-pos-normal/index.html",
+        "type": "file",
+        "md5": "40e2be2e3d7a131150d1c8abf3a37e31"
+    },
+    {
+        "path": "mensaje-de-cierre",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/mensaje-de-cierre/index.html",
+        "type": "file",
+        "md5": "4caf9cba581fac2dc5a214df2f17e8d3"
+    },
+    {
+        "path": "mensaje-de-poll",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/mensaje-de-poll/index.html",
+        "type": "file",
+        "md5": "43a457d90e4d37788202a3349d8bbcd3"
+    },
+    {
+        "path": "mensaje-de-totales",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/mensaje-de-totales/index.html",
+        "type": "file",
+        "md5": "35788c67428552f66ee9f4e8d2ff2fd5"
+    },
+    {
+        "path": "mensaje-detalle-de-ventas",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/mensaje-detalle-de-ventas/index.html",
+        "type": "file",
+        "md5": "419639e29c4e7f1ac8cf70799a370959"
+    },
+    {
+        "path": "mensajes",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/mensajes/index.html",
+        "type": "file",
+        "md5": "701b99dc021747fa896085a2e771ad31"
+    },
+    {
+        "path": "pos-integrado",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/pos-integrado/index.html",
+        "type": "file",
+        "md5": "59a90365600ebcb38635fbe65d4bf8bc"
+    },
+    {
+        "path": "robots.txt",
+        "type": "file",
+        "md5": "99840d28353d9f5d19e1c16bc907c73d"
+    },
+    {
+        "path": "search.html",
+        "type": "file",
+        "md5": "6b45761c825916f49cbc3e72062c8092"
+    },
+    {
+        "path": "tabla-de-respuestas",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tabla-de-respuestas/index.html",
+        "type": "file",
+        "md5": "72ee550915e6912c15d4cba3ca99963a"
+    },
+    {
+        "path": "tags",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/index.html",
+        "type": "file",
+        "md5": "54e7f0b0e5ce3e0815ad8c021ef472d9"
+    }
+]
